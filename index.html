@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <title>mhw3</title>
+    <link rel="stylesheet" href="style-sheet.css" />
+    <script src="mhw3.js" defer="true"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <nav>
+      <a class="nav1">Home</a>
+      <a class="nav1">Lista</a>
+      <a class="nav1">Contatti</a>
+      <a class="nav1">Logout</a>
+    </nav>
+    <header>
+      <div id="overlay"></div>
+    <div id="title"><span>I miei 5 film preferiti</span></div>
+    </header>
+    <section id="propic">
+    <img src="images/propic.jpeg">
+  </section>
+    <section id="autore">
+    <b>Simona D'Aquino</b><br><span>Ultimo aggiornamento: oggi</span>
+    </section>
+   <article>
+     <div class="flex-container">
+      <div class="numero">1.</div>
+      <div class="contenitore-articolo">
+      <div class="titolo" data-number=1 data-title="The Fellowship of the Ring"><span>Il Signore degli Anelli - La Compagnia dell'Anello</span></div>
+      <div class="testo" data-id=1></div>
+      <div class="chiusura"><span>"Se faccio ancora un passo, non sarò mai stato così lontano da casa mia."</span></div>
+      <img src="images/lotr2.png">
+      </div>
+     </div>
+     <div class="flex-container2">
+      <div class="numero">2.</div>
+      <div class="contenitore-articolo">
+      <div class="titolo" data-number=2 data-title="Princess Mononoke"><span>Principessa Mononoke</span></div>
+      <div class="testo" data-id=2></div>
+      <div class="chiusura"><span>"Non posso perdonare agli umani le cose orribili     che hanno fatto."</span></div>
+      <img src="images/mononoke.jpeg">
+      </div>
+     </div>
+     <div class="flex-container2">
+      <div class="numero">3.</div>
+      <div class="contenitore-articolo">
+      <div class="titolo" data-number=3 data-title="Reservoir Dogs"><span>Reservoir dogs</span></div>
+      <div class="testo" data-id=3></div>
+      <div class="chiusura"><span>"Ragazzi, non fate giochi pesanti. Poi qualcuno si fa male e si mette a piangere!"</span></div>
+      <img src="images/reservoir.jpeg">
+      </div>
+     </div>
+     <div class="flex-container2">
+      <div class="numero">4.</div>
+      <div class="contenitore-articolo">
+      <div class="titolo" data-number=4 data-title="Memories of a Murder"><span>Memories of a murder</span></div>
+      <div class="testo" data-id=4></div>
+      <div class="chiusura"><span>"Forse non so nient'altro,
+        ma i miei occhi possono leggere le persone."</span></div>
+      <img src="images/memorie.jpeg">
+      </div>
+      </div>
+      <div class="flex-container2">
+        <div class="numero">5.</div>
+        <div class="contenitore-articolo">
+        <div class="titolo" data-number=5 data-title="Clockwork Orange"><span>Clockwork Orange</span></div>
+        <div class="testo" data-id=5></div>
+        <div class="chiusura"><span>“E d'un tratto capii che il pensare è per gli stupidi, mentre i cervelluti si affidano all'ispirazione!”</span></div>
+        <img src="images/arancia.jpeg">
+        </div>
+        </div>
+   </article>
+   <form class="titolo">
+    Cerca la musica dei tuoi film preferiti!
+    <input type='text' id='album'>
+    <input type='submit' id='submit' value='Cerca'>
+  </form>
+  <section id="album-view">
+  </section>
+   <footer>
+     Simona D'Aquino O46001752
+   </footer>
+  </body>
+</html>
